@@ -2,29 +2,29 @@ const projects = [
   {
     id: 1,
     title: "Проект 1",
-    description: "User Table",
-    image: null,
+    description: "Todo List",
+    image: "../../public/images/image.png",
     technologies: ["React", "CSS"],
-    link: "#",
-    github: "#"
+    link: "https://todo-list-six-alpha-20.vercel.app/",
+    github: "https://github.com/zikriolloh-05/Table-User"
   },
   {
     id: 2,
     title: "Проект 2",
     description: "User Table",
-    image: null,
+    image: "../../public/images/image copy 2.png",
     technologies: ["React", "Node.js"],
-    link: "#",
-    github: "#"
+    link: "https://table-user-2.vercel.app/",
+    github: "https://github.com/zikriolloh-05/Table-User-2"
   },
   {
     id: 3,
     title: "Проект 3",
-    description: "Todo List",
-    image: null,
+    description: "User Table",
+    image: "../../public/images/image copy.png",
     technologies: ["React", "JavaScript"],
-    link: "#",
-    github: "#"
+    link: "https://table-user-three.vercel.app/",
+    github: "https://github.com/zikriolloh-05/Table-User"
   }
 ];
 

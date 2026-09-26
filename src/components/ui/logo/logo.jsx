@@ -4,7 +4,7 @@ import './style.css';
 function Logo({ onClick }) {
   return (
     <div className="logo" onClick={onClick}>
-      <span className="logo-text">Portfolio</span>
+      <span className="logo-text">Zikriolloh</span>
     </div>
   );
 }

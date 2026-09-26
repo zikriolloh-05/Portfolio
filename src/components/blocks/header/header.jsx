@@ -30,6 +30,26 @@ function Header({ activeSection, onScrollToSection, isScrolled }) {
               </a>
             </li>
           ))}
+          <li className="resume-actions">
+            <a
+              href="/images/CV/cv-sharipov-zikriolloh.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-btn view"
+            >
+              Резюме
+            </a>
+
+            {/* ⬇ Скачать — скачивает файл */}
+            <a
+              href="/images/CV/cv-sharipov-zikriolloh.pdf"
+              download="CV_Sharipov_Zikriolloh.pdf"
+              className="resume-btn download"
+            >
+              ⬇ 
+            </a>
+          </li>
+        
         </ul>
       </div>
     </nav>
