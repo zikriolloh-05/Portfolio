@@ -4,7 +4,7 @@ const projects = [
     title: "Проект 1",
     description: "Todo List",
     image: "/images/image.png",
-    technologies: ["React", "CSS"],
+    technologies: ["JavaScript","HTML","CSS"],
     link: "https://todo-list-six-alpha-20.vercel.app/",
     github: "https://github.com/zikriolloh-05/Table-User"
   },
@@ -13,7 +13,7 @@ const projects = [
     title: "Проект 2",
     description: "User Table",
     image: "/images/image copy 2.png",
-    technologies: ["React", "Node.js"],
+    technologies: ["JavaScript","HTML","CSS"],
     link: "https://table-user-2.vercel.app/",
     github: "https://github.com/zikriolloh-05/Table-User-2"
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "Проект 3",
     description: "User Table",
     image: "/images/image copy.png",
-    technologies: ["React", "JavaScript"],
+    technologies: ["JavaScript","HTML","CSS"],
     link: "https://table-user-three.vercel.app/",
     github: "https://github.com/zikriolloh-05/Table-User"
   }
