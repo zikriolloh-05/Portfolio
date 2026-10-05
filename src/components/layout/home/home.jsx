@@ -17,24 +17,21 @@ function Home({ onScrollToSection }) {
         </div>
         <div className="hero-text">
           <h1 className="hero-title">
-            Привет, я <span className="gradient-text">Разработчик</span>
+            Привет, я <span className="gradient-text"></span>
           </h1>
           <p className="hero-subtitle">Frontend Developer </p>
           <p className="hero-description">
-            21 года | 1 года опыта в программировании
+             1 года опыта в программировании
           </p>
           <div className="hero-buttons">
-            <Button variant="primary" onClick={() => onScrollToSection('projects')}>
+            <Button className='btnProjects' variant="secondary" onClick={() => onScrollToSection('projects')}>
               Мои проекты
             </Button>
-            <Button variant="secondary" onClick={() => onScrollToSection('contact')}>
+            <Button className='btnContacts' variant="secondary" onClick={() => onScrollToSection('contact')}>
               Связаться
             </Button>
           </div>
         </div>
-      </div>
-      <div className="scroll-indicator">
-        <div className="mouse"></div>
       </div>
     </section>
   );

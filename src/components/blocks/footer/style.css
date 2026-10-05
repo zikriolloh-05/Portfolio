@@ -1,6 +1,6 @@
 .footer {
   background: var(--dark-light);
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
   border-top: 1px solid rgba(99, 102, 241, 0.2);
   color: var(--text-muted);
@@ -12,8 +12,11 @@
   padding: 0 2rem;
 }
 
-@media (max-width: 480px) {
-  .container {
-    padding: 0 1rem;
+@media (max-width: 768px) {
+  .footer{
+    background: var(--dark-light);
+    position: relative;
+    padding: 10px 0px 30px 0px;
+    top: 20px;
   }
 }

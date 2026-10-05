@@ -8,6 +8,10 @@
   padding: 2rem;
 }
 
+.btnProjects {
+  width: 180px;
+}
+
 .hero-background {
   position: absolute;
   top: 0;
@@ -158,6 +162,7 @@
     opacity: 1;
     transform: translateX(-50%) translateY(0);
   }
+
   100% {
     opacity: 0;
     transform: translateX(-50%) translateY(15px);
@@ -185,9 +190,11 @@
     height: 250px;
     object-fit: cover;
   }
-}
 
-@media (max-width: 480px) {
+  .hero-image-containe{
+    margin-bottom: 20px;
+  }
+
   .hero-title {
     font-size: 2rem;
   }

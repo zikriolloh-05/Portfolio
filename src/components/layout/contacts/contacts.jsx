@@ -27,7 +27,7 @@ function Contacts() {
         <Title number="04">Контакты</Title>
         <div className="contact-content">
           <p className="contact-description">
-            Свяжитесь со мной через любой из указанных способов
+            Свяжитесь со мной через указанные способы
           </p>
           <div className="contact-links">
             {contacts.links.map((link, index) => (

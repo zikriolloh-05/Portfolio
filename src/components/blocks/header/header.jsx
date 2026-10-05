@@ -26,7 +26,6 @@ function Header({ activeSection, onScrollToSection, isScrolled }) {
       <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
           <Logo onClick={() => onScrollToSection('home')} />
-
           <ul className="nav-menu">
             {menuItems.map((item) => (
               <li key={item.id}>
